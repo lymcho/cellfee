@@ -46,8 +46,13 @@ video {
     margin-top: -4px;
     transition: 0.2s ease-in-out; }
 
-.logo {
-  width: 180px; }
+@media (min-width: 340px) {
+  .logo {
+    width: 140px; } }
+
+@media (max-width: 340px) {
+  .logo {
+    width: 100px; } }
 
 #footerlink {
   font-family: 'Source Sans Pro', sans-serif !important;
