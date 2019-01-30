@@ -1,4 +1,4 @@
-p, h1, h2, h3 {
+p, h1, h2, h3, a {
   font-family: 'Source Sans Pro', sans-serif !important; }
 
 .title {
@@ -50,5 +50,6 @@ video {
   width: 180px; }
 
 #footerlink {
+  font-family: 'Source Sans Pro', sans-serif !important;
   display: block;
   color: black; }
