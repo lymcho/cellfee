@@ -27,8 +27,17 @@ p, h1, h2, h3, a {
       display: inline; }
 
 video {
-  border: 1px solid red;
   margin-left: 50px; }
+
+.video_container .videoframe {
+  position: absolute;
+  z-index: 3; }
+
+.video_container .videocontent {
+  position: absolute;
+  top: 39px;
+  left: 6px;
+  z-index: 1; }
 
 @keyframes widen {
   0% {
