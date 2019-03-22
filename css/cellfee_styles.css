@@ -29,15 +29,15 @@ p, h1, h2, h3, a {
 video {
   margin-left: 50px; }
 
-.video_container .videoframe {
-  position: absolute;
-  z-index: 3; }
+img {
+  display: block; }
 
-.video_container .videocontent {
-  position: absolute;
-  top: 39px;
-  left: 6px;
-  z-index: 1; }
+.video_container {
+  height: auto; }
+  .video_container .videocontent {
+    width: 450px;
+    position: absolute;
+    z-index: 1; }
 
 @keyframes widen {
   0% {
